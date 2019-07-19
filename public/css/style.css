@@ -1,0 +1,57 @@
+body {
+    font-family: 'PT Serif', serif;
+}
+
+.m-header {
+    display: flex;
+    margin-right: 0%;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    margin-left: 20%;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+#asbl {
+    margin-left: 20%;
+    margin-top: 0;
+}
+
+li {
+    padding-right: 10px;
+}
+
+.menubkg {
+    font-size: 16px;
+    padding: 5px;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+input, textarea{
+    display: flex;
+    padding-top: 10px
+}
+
+
+
+section {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify
+}
+
