@@ -12,22 +12,39 @@
     <header>
         <ul class="m-header">
             <li><a id="facebook" href="#">Rejoignez-nous</a></li>
-            <li><a id="mail" href="#">Contact</a></li>
+            <li><a id="mail" href="#bouton">Contact</a></li>
         </ul>
         <h1>Les amis des animaux</h1>
         <p id="asbl">a.s.b.l</p>  
     </header>      
     <nav class="menubkg">
         <ul class="menu">
-            <li><a href="#">Notre assosciation</a>
-            <li class="sous-menu">Comment nous aider?</li>
-            <li class="sous-menu">Faites un don</li>
-            <li class="sous-menu">Adopter</li>
+            <li id="association"><a href="#">Notre association</a>
+            <a class="sous-menu">Comment nous aider?</a>
+            <a class="sous-menu">Faites un don</a>
+            <a class="sous-menu">Adopter</a>
             </li>
-            <li><a href="#">Adoptions & Cessions</a></li>
-            <li><a href="#">Nos Services</a></li>
-            <li><a href="#">Centre de Documentation</a></li>
-            <li><a href="#">Forum</a></li>
+            <li id="adoption" ><a href="#">Adoptions & Cessions</a>
+            <a href="#" class="sous-menu1">Chiens à adopter</a>
+            <a href="#" class="sous-menu1">Chats à adopter</a>
+            <a href="#" class="sous-menu1">Autres animaux</a>
+            <a href="#" class="sous-menu1">Cession d'un animal</a>
+            <a href="#" class="sous-menu1">Parrainnez un animal</a>
+            </li>
+            <li id="service" ><a href="#">Nos Services</a>
+            <a href="#" class="sous-menu2">Stérilisation des chats errants</a>
+            </li>
+            <li id="doc" ><a href="#">Centre de Documentation</a>
+                <a href="#" class="sous-menu3">doc. pour particuliers</a>
+                <a href="#" class="sous-menu3">doc. scolaire & dossiers</a>
+                <a href="#" class="sous-menu3">dossiers-conseils</a>
+                <a href="#" class="sous-menu3">legislation animalière</a>
+            </li>
+            <li id="forum" ><a href="#">Forum</a>
+                <a href="#" class="sous-menu4">Pétition en cours</a>
+                <a href="#" class="sous-menu4">Notre agenda</a>
+                <a href="#" class="sous-menu4">Nouvelles de nos adoptés</a>
+            </li>
         </ul>
     </nav>
     <section>
@@ -56,7 +73,8 @@
             afin que toute adoption soit une réussite.
         </p>
     </section>
-    <form action="#">
+    <button id="bouton">Contactez-nous</button>
+    <form id="formulaire" action="#">
         <label for="email">Entrez votre email</label>
         <input type="email">
         <label for="name">Entrez vos noms & prénoms</label>
@@ -69,5 +87,14 @@
         <textarea name="" id="message" cols="30" rows="10"></textarea>
         <input type="submit" value="Envoyer">
     </form>
+    <footer>
+        <div class="boite_image">
+            <img src="/img/abandons.jpg" alt="abandons">
+            <img class="img_arrondi" src="/img/vacance.jpg" alt="vacances">
+            <img class="img_arrondi" src="/img/love_animaux.jpg" alt="autocollant_animaux">
+            <img src="/img/droits.jpg" alt="droits">
+        </div>
+    </footer>
+    <script src="/js/script.js"></script>
 </body>
 </html>

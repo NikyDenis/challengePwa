@@ -40,18 +40,49 @@ li {
     justify-content: space-around;
     list-style: none;
 }
+.sous-menu, .sousmenu1, .sous-menu2, .sous-menu3, .sous-menu4{
+    display: none
+}
+.menu li{
+    border-bottom: 1px black solid;
+    padding-bottom: 2px;
+    border-radius: 6%;
+}
 
 input, textarea{
     display: flex;
-    padding-top: 10px
+    padding-top: 10px;
 }
 
 
 
-section {
+section{
     width: 500px;
     margin-right: auto;
     margin-left: auto;
-    text-align: justify
+    text-align: justify;
+    border-left: 4px black solid;
+    padding-left: 14px;
+    border-radius : 2%;
+}
+#bouton{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
+#formulaire{
+    display: none;
+}
+.boite_image{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.img_arrondi{
+    border-radius: 50%;
+}
+img{
+    width: 10%;
+    padding-left: 10px;
+}
