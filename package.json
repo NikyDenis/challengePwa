@@ -20,5 +20,8 @@
   "dependencies": {
     "ejs": "^2.6.2",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "create-pwa": "^2.0.1"
   }
 }
